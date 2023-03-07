@@ -18,7 +18,12 @@ import InlinePx2Vw from 'inline-px-to-viewport';
 export default function() {
   return {
     plugins: [
-      InlinePx2Vw(), // 放在第一个
+      InlinePx2Vw({
+        viewportWidth: 750,
+        unitPrecision: 5,
+        viewportUnit: 'vw',
+        minPixelValue: 1,
+      }), // 放在第一个
       react(),
     ],
   };

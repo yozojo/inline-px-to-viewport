@@ -29,10 +29,11 @@ function createPxReplace(
 const pxGlobalReg = /(\d+)px/gi;
 const fileGlobalReg = /\.jsx?$|\.tsx?$/;
 
-const pluginGenerator = (customOptions = defaultsProp) => {
+
+module.exports = function pluginGenerator(customOptions = defaultsProp) {
   return {
     name: 'inline-px-to-viewport',
-    async transform(code, id) {
+    transform(code, id) {
       if (fileGlobalReg.test(id)) {
         if (pxGlobalReg.test(code)) {
           const $_source = code.replace(
@@ -51,5 +52,3 @@ const pluginGenerator = (customOptions = defaultsProp) => {
     },
   };
 };
-
-export default pluginGenerator;
