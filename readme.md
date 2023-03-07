@@ -14,7 +14,7 @@ vite
 
 ```javascript
 import Pxtovw from 'postcss-px-to-viewport';
-import InlinePx2Vw from './inlinePx2Vw';
+import InlinePx2Vw from 'inline-px-to-viewport';
 
 export default function() {
   return {
