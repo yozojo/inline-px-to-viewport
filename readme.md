@@ -5,7 +5,7 @@
 ### install
 
 ```npm
-npm instal linline-px-to-viewport --save-dev
+npm install inline-px-to-viewport --save-dev
 ```
 
 ### Use
@@ -13,7 +13,6 @@ npm instal linline-px-to-viewport --save-dev
 vite
 
 ```javascript
-import Pxtovw from 'postcss-px-to-viewport';
 import InlinePx2Vw from 'inline-px-to-viewport';
 
 export default function() {
