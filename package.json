@@ -1,6 +1,6 @@
 {
   "name": "inline-px-to-viewport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vite专门处理react中关于内联style中px转vw的插件",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,13 @@
     "px2vw"
   ],
   "author": "yozojo",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yozojo/inline-px-to-viewport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yozojo/inline-px-to-viewport/issues"
+  },
+  "homepage": "https://github.com/yozojo/inline-px-to-viewport",
+  "license": "MIT"
 }
