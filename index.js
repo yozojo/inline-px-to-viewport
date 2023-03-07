@@ -26,7 +26,7 @@ function createPxReplace(
   };
 }
 
-const pxGlobalReg = /(\d+)px/gi;
+const pxGlobalReg = /(\d+)px/g;
 const fileGlobalReg = /\.jsx?$|\.tsx?$/;
 
 

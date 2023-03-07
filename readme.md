@@ -41,3 +41,7 @@ defaultsProp = {
   minPixelValue: 1
 }
 ```
+
+### 注意事项
+
+如果不想转换这个px，可以将他大写或者直接数字不加px，如PX或者10,将不做处理
