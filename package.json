@@ -1,9 +1,9 @@
 {
   "name": "inline-px-to-viewport",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "vite专门处理react中关于内联style中px转vw的插件",
-  "type": "module",
   "main": "index.js",
+  "typing": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

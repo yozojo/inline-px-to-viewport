@@ -1,0 +1,1 @@
+declare module 'inline-px-to-viewport'
