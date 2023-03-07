@@ -1,0 +1,16 @@
+{
+  "name": "inline-px-to-viewport",
+  "version": "1.0.0",
+  "description": "vite专门处理react中关于内联style中px转vw的插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "px2vw"
+  ],
+  "author": "yozojo",
+  "license": "ISC"
+}
